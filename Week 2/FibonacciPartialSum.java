@@ -1,3 +1,29 @@
+/*
+Problem Description
+Task. Given two non-negative integers 𝑚 and 𝑛, where 𝑚 ≤ 𝑛, find the last digit of the sum 𝐹𝑚 + 𝐹𝑚+1 +
+· · · + 𝐹𝑛.
+Input Format. The input consists of two non-negative integers 𝑚 and 𝑛 separated by a space.
+Constraints. 0 ≤ 𝑚 ≤ 𝑛 ≤ 1014
+.
+Output Format. Output the last digit of 𝐹𝑚 + 𝐹𝑚+1 + · · · + 𝐹𝑛.
+Sample 1.
+Input:
+3 7
+Output:
+1𝐹3 + 𝐹4 + 𝐹5 + 𝐹6 + 𝐹7 = 2 + 3 + 5 + 8 + 13 = 31.
+
+Sample 2.
+Input:
+10 10
+Output:
+5𝐹10 = 55.
+
+Sample 3.
+Input:
+10 200
+Output:
+2𝐹10 + 𝐹11 + · · · + 𝐹200 = 734 544 867 157 818 093 234 908 902 110 449 296 423 262
+*/
 import java.util.*;
 
 public class FibonacciPartialSum {
