@@ -8,17 +8,22 @@ Sample 1.
 Input:
 3
 Output:
-2𝐹3 = 2.
+2
+𝐹3 = 2.
+
 Sample 2.
 Input:
 331
 Output:
-9𝐹331 = 668 996 615 388 005 031 531 000 081 241 745 415 306 766 517 246 774 551 964 595 292 186 469.
+9
+𝐹331 = 668 996 615 388 005 031 531 000 081 241 745 415 306 766 517 246 774 551 964 595 292 186 469.
+
 Sample 3.
 Input:
 327305
 Output:
-5𝐹327305 does not fit into one line of this pdf, but its last digit is equal to 5.
+5
+𝐹327305 does not fit into one line of this pdf, but its last digit is equal to 5.
 
 */
 
