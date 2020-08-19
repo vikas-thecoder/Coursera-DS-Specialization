@@ -1,3 +1,30 @@
+/*
+Last Digit of the Sum of Squares of Fibonacci Numbers
+Problem Description
+Task. Compute the last digit of 𝐹20 + 𝐹21 + · · · + 𝐹2𝑛.
+Input Format. Integer 𝑛.
+Constraints. 0 ≤ 𝑛 ≤ 1014
+.
+Output Format. The last digit of 𝐹20 + 𝐹21 + · · · + 𝐹2𝑛.
+Sample 1.
+Input:
+7
+Output:
+3𝐹20 + 𝐹21 + · · · + 𝐹27 = 0 + 1 + 1 + 4 + 9 + 25 + 64 + 169 = 273.
+
+Sample 2.
+Input:
+73
+Output:
+1𝐹20 + · · · + 𝐹2
+73 = 1 052 478 208 141 359 608 061 842 155 201.
+
+Sample 3.
+Input:
+1234567890
+Output:
+0
+*/
 import java.util.*;
 
 public class FibonacciSumSquares {
