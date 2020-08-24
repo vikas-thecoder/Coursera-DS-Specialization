@@ -1,3 +1,18 @@
+/*
+Problem Description
+Task. The goal in this problem is to count the number of inversions of a given sequence.
+Input Format. The first line contains an integer 𝑛, the next one contains a sequence of integers 𝑎0, 𝑎1, . . . , 𝑎𝑛 1.
+Constraints. 1 ≤ 𝑛 ≤ 105, 1 ≤ 𝑎𝑖 ≤ 109 for all 0 ≤ 𝑖 < 𝑛.
+Output Format. Output the number of inversions in the sequence.
+
+Sample 1.
+Input:
+5
+2 3 9 2 9
+Output:
+2
+The two inversions here are (1, 3) (𝑎1 = 3 > 2 = 𝑎3) and (2, 3) (𝑎2 = 9 > 2 = 𝑎3).
+*/
 import java.util.*;
 
 public class Inversions {
