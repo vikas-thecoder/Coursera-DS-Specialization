@@ -28,7 +28,6 @@ Input:
 7 5 14 2 8 8 10 1 2 3
 Output:
 140
-
 */
 
 import java.util.*;
