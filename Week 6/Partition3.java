@@ -1,3 +1,24 @@
+/*
+Problem Description
+Input Format. The first line contains an integer 𝑛. The second line contains integers 𝑣1, 𝑣2, . . . , 𝑣𝑛 separated
+by spaces.
+Constraints. 1 ≤ 𝑛 ≤ 20, 1 ≤ 𝑣𝑖 ≤ 30 for all 𝑖.
+Output Format. Output 1, if it possible to partition 𝑣1, 𝑣2, . . . , 𝑣𝑛 into three subsets with equal sums, and 0 otherwise.
+
+Sample 1.
+Input:
+4
+3 3 3 3
+Output:
+0
+
+Sample 2.
+Input:
+1
+40
+Output:
+0
+*/
 import java.util.*;
 import java.io.*;
 
