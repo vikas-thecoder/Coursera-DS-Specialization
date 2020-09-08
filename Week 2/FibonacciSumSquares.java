@@ -4,7 +4,6 @@ Problem Description
 Task. Compute the last digit of 𝐹20 + 𝐹21 + · · · + 𝐹2𝑛.
 Input Format. Integer 𝑛.
 Constraints. 0 ≤ 𝑛 ≤ 1014
-.
 Output Format. The last digit of 𝐹20 + 𝐹21 + · · · + 𝐹2𝑛.
 Sample 1.
 Input:
